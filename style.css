@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;     
+}
+body{
+    background-color: #f1f5f9;
+    line-height: 1.5;
+    font-family: "Open sans", sans-serif;
+}
+.main{
+     min-height: 100vh;
+     width: 90vw;
+     margin: 0 auto;
+     max-width: 80rem;
+     
+}
+.header{
+    width: 100%;
+    padding: 2rem 0;
+    border-bottom: 2px solid #000;
+}
+.header h1{
+     text-transform: uppercase;
+     font-family: Arial, Helvetica, sans-serif;
+     letter-spacing: 3px;
+     font-size: 2.5rem;
+}
+.margin-10{
+    margin: 10px 0;
+}
+.margin-15{
+    margin: 15px 0;
+}
+.title h3{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+.button-container{
+      margin: 1rem 0;
+      margin-bottom: 2rem;
+      display: flex;
+      gap: 10px;
+}
+.button-container > *{
+    border: transparent;
+    padding: 0.5rem 1rem;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    background: #fff;
+    cursor: pointer;    
+    color: #000;
+}
+.nature-content{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 10px;  
+      margin-bottom: 1.5rem; 
+}
+.nature{
+    background: #fff;
+    padding: 10px;
+}
+
+.cars-content{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 10px;
+     margin-bottom: 1.5rem;
+}
+.car{
+    background: #fff;
+    padding: 10px;
+}
+.peoples-content{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 10px;
+     margin-bottom: 1.5rem;
+}
+.people{
+     background: #fff;
+     padding: 1rem;
+}
+
+.active{
+     background-color: #333;
+     color: #fff;
+}
+
+.show{
+     display: block !important;
+}
